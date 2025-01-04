@@ -1,0 +1,199 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Dec 31 01:40:57 2024
+[*]
+[dumpfile] "/Users/chanho/Computer_Organization_Design_RISCV_Pipeline/dump.vcd"
+[dumpfile_mtime] "Tue Dec 31 01:35:38 2024"
+[dumpfile_size] 14600
+[savefile] "/Users/chanho/Computer_Organization_Design_RISCV_Pipeline/Pipeline.gtkw"
+[timestart] 0
+[size] 1440 847
+[pos] -1 -1
+*-7.926970 158 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[markername] AA
+[markername] BB
+[markername] CC
+[markername] DD
+[markername] EE
+[markername] FF
+[markername] GG
+[markername] HH
+[markername] II
+[markername] JJ
+[markername] KK
+[markername] LL
+[markername] MM
+[markername] NN
+[markername] OO
+[markername] PP
+[markername] QQ
+[markername] RR
+[markername] SS
+[markername] TT
+[markername] UU
+[markername] VV
+[markername] WW
+[markername] XX
+[markername] YY
+[markername] ZZ
+[treeopen] pipeline_top_tb.
+[treeopen] pipeline_top_tb.dut.
+[sst_width] 240
+[signals_width] 218
+[sst_expanded] 1
+[sst_vpaned_height] 378
+@28
+pipeline_top_tb.clk
+pipeline_top_tb.rst
+@800200
+-Fetch_Cycle
+@28
+pipeline_top_tb.dut.Fetch_Cycle.PCSrcE
+@c00022
+pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+@28
+(0)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(1)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(2)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(3)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(4)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(5)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(6)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(7)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(8)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(9)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(10)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(11)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(12)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(13)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(14)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(15)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(16)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(17)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(18)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(19)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(20)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(21)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(22)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(23)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(24)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(25)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(26)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(27)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(28)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(29)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(30)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+(31)pipeline_top_tb.dut.Fetch_Cycle.PCTargetE[31:0]
+@1401200
+-group_end
+@22
+pipeline_top_tb.dut.Fetch_Cycle.PCD[31:0]
+pipeline_top_tb.dut.Fetch_Cycle.InstrD[31:0]
+pipeline_top_tb.dut.Fetch_Cycle.PCPlus4D[31:0]
+@1000200
+-Fetch_Cycle
+@800200
+-Decode_Cycle
+@22
+pipeline_top_tb.dut.Decode_Cycle.PCE[31:0]
+pipeline_top_tb.dut.Decode_Cycle.PCPlus4E[31:0]
+pipeline_top_tb.dut.Decode_Cycle.RDE[4:0]
+pipeline_top_tb.dut.Decode_Cycle.ALU_ControlE[3:0]
+@28
+pipeline_top_tb.dut.Decode_Cycle.ALUSrcE
+pipeline_top_tb.dut.Decode_Cycle.BranchE
+pipeline_top_tb.dut.Decode_Cycle.MemWriteE
+pipeline_top_tb.dut.Decode_Cycle.MemReadE
+pipeline_top_tb.dut.Decode_Cycle.RegWriteE
+@22
+pipeline_top_tb.dut.Decode_Cycle.RD1E[31:0]
+pipeline_top_tb.dut.Decode_Cycle.RD2E[31:0]
+pipeline_top_tb.dut.Decode_Cycle.Imm_Ext_E[31:0]
+@1000200
+-Decode_Cycle
+@800200
+-Execute_Cylce
+@22
+pipeline_top_tb.dut.Execute_Cycle.PCPlus4M[31:0]
+pipeline_top_tb.dut.Execute_Cycle.RDM[4:0]
+@28
+pipeline_top_tb.dut.Execute_Cycle.MemWriteM
+@29
+pipeline_top_tb.dut.Execute_Cycle.MemReadM
+@28
+pipeline_top_tb.dut.Execute_Cycle.RegWriteM
+pipeline_top_tb.dut.Execute_Cycle.Mem_to_RegM[1:0]
+@22
+pipeline_top_tb.dut.Execute_Cycle.ALUOutM[31:0]
+@1000200
+-Execute_Cylce
+@800200
+-Memory
+@c00022
+pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+@28
+(0)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(1)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(2)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(3)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(4)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(5)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(6)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(7)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(8)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(9)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(10)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(11)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(12)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(13)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(14)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(15)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(16)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(17)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(18)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(19)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(20)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(21)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(22)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(23)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(24)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(25)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(26)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(27)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(28)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(29)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(30)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+(31)pipeline_top_tb.dut.Memory_Cylce.PCPlus4W[31:0]
+@1401200
+-group_end
+@28
+pipeline_top_tb.dut.Memory_Cylce.Mem_to_RegW[1:0]
+@22
+pipeline_top_tb.dut.Memory_Cylce.ALUOutW[31:0]
+pipeline_top_tb.dut.Memory_Cylce.ReadDataW[31:0]
+@1000200
+-Memory
+@800200
+-Register_Writeback
+@28
+pipeline_top_tb.dut.Memory_Cylce.RegWriteW
+@22
+pipeline_top_tb.dut.Memory_Cylce.RDW[4:0]
+pipeline_top_tb.dut.WriteBack_Cycle.ResultW[31:0]
+@1000200
+-Register_Writeback
+@800200
+-Hazard_Detection_Unit
+@28
+pipeline_top_tb.dut.Hazard_Detection_Unit.stall
+pipeline_top_tb.dut.Hazard_Detection_Unit.MemReadE
+pipeline_top_tb.dut.Decode_Cycle.MemReadMux
+pipeline_top_tb.dut.Hazard_Detection_Unit.IF_IDWrite
+@22
+pipeline_top_tb.dut.Hazard_Detection_Unit.RDE[4:0]
+pipeline_top_tb.dut.Hazard_Detection_Unit.Rs1D[4:0]
+pipeline_top_tb.dut.Hazard_Detection_Unit.Rs2D[4:0]
+@1000200
+-Hazard_Detection_Unit
+[pattern_trace] 1
+[pattern_trace] 0
